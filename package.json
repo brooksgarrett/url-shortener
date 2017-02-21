@@ -1,0 +1,22 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A simple microservice to shorten URLs.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brooksgarrett/url-shortener.git"
+  },
+  "scripts": {
+    "dev": "yarn nodemon ./server.js",
+    "start": "node ./server.js"
+  },
+  "author": "Brooks Garrett <brooks+git@brooksgarrett.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
